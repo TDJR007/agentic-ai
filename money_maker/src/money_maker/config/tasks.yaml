@@ -1,17 +1,15 @@
 research_task:
   description: >
-    Conduct a thorough research about {topic}
-    Make sure you find any interesting and relevant information given
-    the current year is {current_year}.
+    Hunt down the freshest, most badass info on {topic}. Year is {current_year}, so keep it spicy and current.
+    Prioritize finding up-to-date platforms, apps, or services that readers can use TODAY to get started.
   expected_output: >
-    A list with 10 bullet points of the most relevant information about {topic}
+    A list of 10 bullet points packed with relevance, wit, and just enough sass to keep it interesting.
   agent: researcher
 
 reporting_task:
   description: >
-    Review the context you got and expand each topic into a full section for a report.
-    Make sure the report is detailed and contains any and all relevant information.
+    Expand each point into a full, juicy section of the report. Write like you’re selling the dream — hype, humor, and hard facts.
+    Most importantly, include clear, actionable first steps that a reader can start doing TODAY to make real money.
   expected_output: >
-    A fully fledged report with the main topics, each with a full section of information.
-    Formatted as markdown without '```'
+    A markdown report, no code blocks, dripping with motivation, cheeky wisdom, sarcastic commentary, and step-by-step beginner actions.
   agent: reporting_analyst
